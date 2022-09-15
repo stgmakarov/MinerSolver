@@ -25,5 +25,4 @@ public class Game {
         }
         return answerMap[x][y];
     }
-
 }
