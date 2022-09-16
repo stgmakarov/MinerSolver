@@ -59,7 +59,6 @@ class MineSweeper {
         }
         return rez;
     }
-
     public String solve() {
         // Your code here...
         return board.result();
