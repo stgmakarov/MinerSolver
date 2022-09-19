@@ -1,7 +1,6 @@
 public class Game {
 
     private static int[][] answerMap;
-    private static int[][] initMap;
     private static int minesN;
 
     public static void newGame(String map) {
@@ -11,7 +10,7 @@ public class Game {
     }
 
     public static void read(String map) {
-        initMap = new int[map.split("\n").length][];
+        int[][] initMap = new int[map.split("\n").length][];
         MineSweeper.initMap(map, initMap);
     }
 
